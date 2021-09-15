@@ -133,6 +133,7 @@ nav #icon{
   .all-quiz{
     transform: scale(0.7);
     margin: -400px 0;
+    margin-bottom: -300px;
 
   }
 
@@ -144,6 +145,7 @@ nav #icon{
 
 /***************************** Content **********************************/
 body .content0{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -333,6 +335,17 @@ body .content0 h1{
   border-radius: 3px;
   color: white;
 }
+
+
+
+
+.main .counter span{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: red;
+}
+
 
 
 

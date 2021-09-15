@@ -33,6 +33,7 @@
       </nav>
     </header>
     <div class="content0">
+      
       <h1>Übung 2</h1>
       <!-------------------------- QUIZ 1 ------------------------------------->
       <div class="all-quiz">
@@ -418,7 +419,11 @@
         </div>
 
       </div>
-
+      <div class="counter">
+            <?php
+              require('counter.php')
+            ?>
+      </div>
     </div>
 
 

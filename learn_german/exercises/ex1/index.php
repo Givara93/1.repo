@@ -298,7 +298,11 @@
         </div>
 
       </div>
-
+      <div class="counter">
+        <?php
+          require('counter.php')
+        ?>
+      </div>
     </div>
 
 

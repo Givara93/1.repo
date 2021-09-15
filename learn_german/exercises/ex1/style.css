@@ -292,6 +292,15 @@ body .content0 h1{
 
 
 
+.content0 .counter span{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: red;
+}
+
+
+
 
 
 

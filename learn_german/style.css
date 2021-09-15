@@ -146,6 +146,21 @@ body .content0{
 
 
 
+.content0 .counter span{
+  position: absolute;
+  bottom: 15px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

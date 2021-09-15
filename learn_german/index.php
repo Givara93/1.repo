@@ -44,11 +44,12 @@
         <span class="arabisch">
           .الصفحة لتعلم اللغة الألمانية
         </span>
+      </div>
+      <div class="counter">
         <?php
-          echo "Hier";
+          require('counter.php')
         ?>
       </div>
-
     </div>
 
 

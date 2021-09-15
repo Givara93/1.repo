@@ -11,14 +11,14 @@
     $visitor_ip = $_SERVER['REMOTE_ADDR'];
 
 
-    $sqlquery = "SELECT * FROM counter_table";
+    $sqlquery = "SELECT * FROM counter_table_ex1";
     $result = mysqli_query($connection, $sqlquery);
     if(!$result){
         die ("Retriving Query ERROR<br>".$sqlquery);
     }
     $total_visitors = mysqli_num_rows($result);
     if($total_visitors!=0){
-        $sqlquery = "insert into counter_table(ip_adresse) values('$visitor_ip');";
+        $sqlquery = "insert into counter_table_ex1(ip_adresse) values('$visitor_ip');";
         $result = mysqli_query($connection, $sqlquery);
 
     }
