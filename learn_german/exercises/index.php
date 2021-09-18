@@ -35,8 +35,9 @@
     <div class="content">
       <h1>Übungen</h1>
       <ul>
-        <li><a href="ex1/index.php">Übung 1</a></li>
-        <li><a href="ex2/index.php">Übung 2</a></li>
+        <li><a href="ex1/index.php">Übung 1 "Präpositionen"</a></li>
+        <li><a href="ex11/index.php">Übung 1.1 "Präpositionen"</a></li>
+        <li><a href="ex2/index.php">Übung 2 "Modalverben"</a></li>
         <li><a href="#">Übung 3 kommt bald</a></li>
       </ul>
     </div>
