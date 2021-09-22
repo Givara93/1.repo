@@ -9,15 +9,19 @@
     <title>Havale Min</title>
     <script type="text/javascript" src="download/a076d05399.js"></script>
     <script type="text/javascript" src="download/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="style11.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
 </head>
 <body>
   <div class="main">
     <header>
-      <nav>
-          <label for="" class="logo">Havale Min</label>
+      <nav> 
+          <?php
+            require('logo/logo.php')
+          ?>
+          <label for="" class="logo1">Havale Min</label>
+
           <label id = "icon">
             <i class="fas fa-bars"></i>
           </label>
@@ -49,6 +53,17 @@
         <?php
           require('counter.php')
         ?>
+      </div>
+      <div class="content1">
+        <div class="content11">
+
+        </div>
+        <div class="content12">
+            <?php
+              require('deutsch_deutsch_daten.php')
+            ?>
+
+        </div>
       </div>
     </div>
 

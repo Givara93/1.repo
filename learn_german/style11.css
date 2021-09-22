@@ -1,0 +1,429 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+body{
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body .main{
+  max-width: 1080px;
+  position: relative;
+  min-width: 200px;
+  width:100%;
+}
+
+
+/****************************** Header *************************************/
+
+body nav{
+  top: 0px;
+  display: flex;
+  justify-content:space-between;
+  height: 50px;
+  background: linear-gradient(black 20%,red, gold 80%);
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  
+}
+
+body nav .logo1{
+  position: absolute;
+  margin-left: 50px;
+}
+body nav label{
+  padding: 0px 5px;
+  line-height: 50px;
+  color: white;
+
+}
+
+body nav a{
+  color: white;
+
+}
+
+
+body nav ul{
+  line-height: 36px;
+
+}
+
+body nav ul li{
+  display: inline-block;
+  margin: 5px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+body nav ul li{
+    border: 2px solid transparent;
+}
+
+body nav ul li:hover,
+body nav ul li.active{
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+nav #icon{
+  display: none;
+}
+
+
+nav #icon{
+  z-index: 1;
+  right: 20px;
+  color: white;
+  font-size: 24px;
+  line-height: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  nav #icon{
+    display: block;
+    z-index: 5;
+
+
+
+  }
+  nav #icon i{
+    color: white;
+
+  }
+  nav ul{
+    z-index: 4;
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 0px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav li{
+
+    max-width: 300px;
+    margin: 50px 0;
+    line-height: 30px;
+
+
+  }
+  nav ul.show{
+    left: 0;
+  }
+
+}
+
+
+
+
+
+
+/***************************** Content **********************************/
+body .content0{
+  padding: 15px;
+  padding-bottom: 30px;
+  min-height: 69vh;
+
+}
+
+.content0 .de-ar{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.content0 .counter span{
+  position: absolute;
+  bottom: 15px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+.content0 .content1{
+  position: relative;
+  height: 100%;
+  display: flex;
+  margin: 15px 0px;
+
+}
+
+
+
+
+.content1 .content11{
+  width: 75%;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.content1 .content11::-webkit-scrollbar{
+  width: 0;
+
+}
+
+
+.content1 .content11 .divF{
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.9);
+
+}
+
+
+
+
+.content11 .divU{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  height: 85%;
+
+}
+
+
+
+.content11 .divU .divL{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  
+}
+
+.content11 .divU .divR{
+  width: 50%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+
+}
+
+
+
+
+
+
+
+.content11 .divU span{
+  margin: 5px 10px;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+.content11 .divU .titleL{
+  line-height: 30px;
+  height: 40px;
+  box-shadow: 0px 0px 10px red;
+}
+.content11 .divU .titleR{
+  height: 40px;
+  line-height: 30px;
+  box-shadow: 0px 0px 10px red;
+
+
+}
+.content11 .divU .contentL{
+  height: 100%;
+  box-shadow: 0px 0px 10px gold;
+  overflow-x: auto;
+  line-height: 30px;
+  
+}
+.content11 .divU .contentR{
+  height: 100%;
+  box-shadow: 0px 0px 10px gold;
+  overflow-x: auto;
+  line-height: 30px;
+
+}
+
+
+
+
+.content11 .divD{
+  position: relative;
+  height: 7%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  line-height: 25px;
+
+}
+
+
+
+.content11 .divD .datumSpan{
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+  padding: 5px;
+}
+
+
+
+
+
+
+.content1 .content12{
+  width: 25%;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+
+.content1 .content12::-webkit-scrollbar{
+  
+}
+
+.content1 .content12 .de-de{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 2px 0;
+  border-radius: 5px;
+
+}
+
+.content1 .content12 .de-de span{
+  margin: 5px 5px;
+  
+}
+.content1 .content12 .de-de .sag_nicht{
+  color: red;
+  
+}
+.content1 .content12 .de-de .sag{
+  color: green;
+  
+}
+
+.content12 .de-de .deutsch1{
+  text-align: left;
+  border-bottom: 2px dashed black;
+  font-size: 22px;
+  margin: 15px 0;
+
+}
+
+.content12 .de-de .deutsch2{
+  text-align: left;
+  font-size: 22px;
+  margin: 15px 0;
+
+}
+
+
+
+/*********************** 600px ************************************/
+@media (max-width:600px) {
+  
+
+.content0 .content1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+
+
+
+.content1 .content11{
+  max-width: 600px;
+  width: 100%;
+  min-height: 500px;
+  height: 100%;
+}
+
+
+
+
+
+.content1 .content12{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.content11 .divU{
+  flex-direction: column;
+}
+
+
+
+.content11 .divU .divL{
+  width: 100%;
+  
+}
+.content11 .divU .divR{
+  width: 100%;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************** Footer ***********************************/
+
+body footer{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: black;
+  z-index: -1;
+}
